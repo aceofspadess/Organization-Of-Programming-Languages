@@ -1,0 +1,286 @@
+#!/bin/bash
+
+
+printf "\033c"
+
+echo ASV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+echo /home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/ASV.txt
+../../../../a.out /pub/pounds/CSC330/translations/ASV.txt
+
+
+echo Java
+echo java /home/miller_cm/flesch-readability/java/javaRI /pub/pounds/CSC330/translations/ASV.txt
+
+
+
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/ASV.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/ASV.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/ASV.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo BBE Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/BBE.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/BBE.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/BBE.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/BBE.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/BBE.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo DARBY Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/DARBY.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo DRB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/DRB.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/DRB.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/DRB.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/DRB.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/DRB.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo KJ21 Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/javac javaRI /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/KJ21.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo KJV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+echo /home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/KJV.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/javac javaRI /pub/pounds/CSC330/translations/KJV.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/KJV.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/KJV.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/KJV.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NAB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/NAB.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/NAB.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/NAB.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/NAB.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/NAB.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NASB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/NASB.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/NASB.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/NASB.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/NASB.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/NASB.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NIV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/NIV.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/NIV.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/NIV.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/NIV.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/NIV.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NKJV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/NKJV.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NLT Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/NLT.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/NLT.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/NLT.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/NLT.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/NLT.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo WEB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/WEB.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/WEB.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/WEB.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/WEB.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/WEB.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo YLT_Original Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/YLT_original.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo YLT Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+/home/miller_cm/flesch-readability/c++/a.out /pub/pounds/CSC330/translations/YLT.txt
+
+echo Java
+/home/miller_cm/flesch-readability/java/java javaRI /pub/pounds/CSC330/translations/YLT.txt
+
+echo Perl
+/home/miller_cm/flesch-readability/perl/perlRI.pl /pub/pounds/CSC330/translations/YLT.txt
+
+echo Python
+/home/miller_cm/flesch-readability/python/pythonRI.py /pub/pounds/CSC330/translations/YLT.txt
+
+echo Fortran
+/home/miller_cm/flesch-readability/fortran/a.out /pub/pounds/CSC330/translations/YLT.txt
+
+
+

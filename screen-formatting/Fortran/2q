@@ -1,0 +1,125 @@
+program Sf
+character(:),allocatable :: longstring, longestLine, shortestLine
+character(LEN=75) :: long_string
+character(LEN=50):: cla
+character(LEN=1) :: input
+integer :: counter, fileSize, lineNumber, numberCheck, lineSize, finishWord
+integer :: spaceCheck
+
+interface
+
+
+end interface
+
+call get_command_argument(1,cla)
+inquire(file = cla, size = fileSize)
+
+open(unit=5,status="old",access="direct",form="unformatted",recl=1,&
+        file= cla)
+
+counter=1
+lineNumber=0
+numberCheck=0
+lineSize=0
+finishWord=0
+long_string=""
+spaceCheck=0
+
+100 read (5,rec=counter,err=200) input
+!print*,lineSize
+!print*,long_string
+
+
+        if( input .eq. "0" .OR. input .eq. "1" .OR. input .eq."2" .OR. input .eq. "3")then
+                numberCheck =1
+
+        else if(input .eq. "4" .OR. input .eq. "5" .OR. input .eq. "6")then
+                numberCheck =1
+
+        else if(input .eq. "7" .OR. input .eq. "8" .OR. input .eq. "9")then
+                numberCheck =1
+
+        endif
+
+
+        if( numberCheck .NE. 1 .AND. finishWord .NE. 1)then
+
+                if(input .EQ. char(10)) then
+                        spaceCheck=1
+
+
+                else if(lineSize .EQ. 60 )then
+                        if( input .NE. "  " .OR. input .NE. char(10)) then
+                                print*,input
+                                finishWord =1
+                                long_string = trim(long_string)//input     
+                                
+
+                        else
+                                print*,"here"
+                                print*,char(10)
+                                !long_string =trim(long_string)//char(10)
+                                lineSize=0
+                                long_string=""
+                        endif
+        
+                else
+
+
+                        if(input .NE. " " .AND. spaceCheck .NE. 1 .AND. input .NE. char(10))then
+                                long_string=trim(long_string)//input
+
+                        else if(input .EQ. " ")then
+                                spaceCheck=1
+                        
+                        else if(input .NE. " " .AND. spaceCheck .EQ. 1)then
+                                long_string=trim(long_string)//" "//input
+                                spaceCheck=0
+                        endif
+                        
+                        lineSize = lineSize+1 
+
+!                        print*,input, lineSize, long_string
+        
+                endif
+
+
+        else if( finishWord .EQ. 1)then
+
+                if( input .EQ. " " .OR. input .EQ. char(10)) then
+                        finishWord = 0
+                        print*, long_string,lineSize
+
+                        if(lineSize .GT. LEN(longestLine))then
+                                longestLine = long_string
+
+                        endif
+
+                        long_string=""
+                        lineSize=0
+
+                else
+
+                        long_string= trim(long_string)//input
+                        lineSize= lineSize +1
+
+
+                endif
+
+        endif
+
+        if(numberCheck .EQ. 1)then
+                numberCheck=0
+        endif
+
+
+
+        numberCheck =0
+        counter=counter+1
+        goto 100
+        200 continue
+        counter=counter-1
+
+close(5)
+
+end program Sf

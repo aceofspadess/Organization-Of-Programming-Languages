@@ -1,0 +1,286 @@
+#!/bin/bash
+
+
+printf "\033c"
+
+javac -d ./ ./java/javaRI.java
+
+echo ASV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+g++ ./c++/c++RI.cpp -o c++Output
+c++Output /pub/pounds/CSC330/translations/ASV.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/ASV.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/ASV.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/ASV.txt
+
+echo Fortran
+gfortran ./fortran/fortranRI.f95
+a.out /pub/pounds/CSC330/translations/ASV.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo BBE Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/BBE.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/BBE.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/BBE.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/BBE.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/BBE.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo DARBY Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Python
+python3 /python/pythonRI.py /pub/pounds/CSC330/translations/DARBY.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/DARBY.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo DRB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/DRB.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/DRB.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/DRB.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/DRB.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/DRB.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo KJ21 Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/KJ21.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/KJ21.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo KJV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/KJV.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/KJV.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/KJV.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/KJV.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/KJV.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NAB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/NAB.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/NAB.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/NAB.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/NAB.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/NAB.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NASB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/NASB.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/NASB.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/NASB.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/NASB.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/NASB.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NIV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/NIV.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/NIV.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/NIV.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/NIV.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/NIV.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NKJV Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/NKJV.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/NKJV.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo NLT Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/NLT.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/NLT.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/NLT.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/NLT.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/NLT.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo WEB Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/WEB.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/WEB.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/WEB.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/WEB.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/WEB.txt
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo YLT_Original Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/YLT_original.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/YLT_original.txt
+
+
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+echo YLT Text
+echo -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+echo C++
+c++Output /pub/pounds/CSC330/translations/YLT.txt
+
+echo Java
+java javaRI /pub/pounds/CSC330/translations/YLT.txt
+
+echo Perl
+perl ./perl/perlRI.pl /pub/pounds/CSC330/translations/YLT.txt
+
+echo Python
+python3 ./python/pythonRI.py /pub/pounds/CSC330/translations/YLT.txt
+
+echo Fortran
+a.out /pub/pounds/CSC330/translations/YLT.txt
+
+rm a.out
+rm c++Output
+
