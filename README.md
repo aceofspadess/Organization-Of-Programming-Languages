@@ -1,7 +1,13 @@
-# Organization-Of-Programming-Languages
+# The Collatz Conjecture
 
--Flesch Readability program
+Project 3 The Collatz Conjecture
 
--Text Screen Formatting
+Fortran: a.out
 
--The Collatz Structure
+Go: go run TCC.go
+
+Julia: TCC.jl
+
+Lisp: TCC.lisp
+
+All 4 languages and recursive counter parts immediately try to calculate collatz of 5,000,000,000
